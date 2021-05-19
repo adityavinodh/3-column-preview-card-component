@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Code Solution URL: [GitHub](https://github.com/THEadityavinodh/3-column-preview-card-component)
-- Live Site URL: [Hosted on Vercel](https://your-live-site-url.com)
+- Code Solution URL: [GitHub](https://github.com/adityavinodh/3-column-preview-card-component)
+- Live Site URL: [Hosted on Vercel](https://3-column-preview-card-component-plum.vercel.app/)
 
 ## My process
 
