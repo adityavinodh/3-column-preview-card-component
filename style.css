@@ -1,0 +1,149 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  --orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  background-color: hsl(0, 0%, 95%);
+}
+
+.orange-text {
+  color: var(--orange);
+}
+
+.dark-cyan-text {
+  color: var(--dark-cyan);
+}
+
+.very-dark-cyan-text {
+  color: var(--very-dark-cyan);
+}
+
+.attribution {
+  margin-top: 20px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  margin: auto;
+  margin-top: 165px;
+  width: 900px;
+  height: 450px;
+  column-count: 3;
+  column-gap: 0px;
+}
+
+.col {
+  height: 100%;
+  padding-left: 42px;
+  padding-right: 33px;
+}
+
+img {
+  padding-top: 40px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  font-size: 38px;
+}
+
+.desc {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 14px;
+  padding-right: 30px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-bottom: 80px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 50px;
+  padding: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+.orange-text:hover {
+  background-color: var(--orange);
+}
+
+.dark-cyan-text:hover {
+  background-color: var(--dark-cyan);
+}
+
+.very-dark-cyan-text:hover {
+  background-color: var(--very-dark-cyan);
+}
+
+.col-1 {
+  background-color: var(--orange);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.col-2 {
+  background-color: var(--dark-cyan);
+}
+
+.col-3 {
+  background-color: var(--very-dark-cyan);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media screen and (max-width: 905px) {
+  .card {
+    margin-top: 70px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(34.5%);
+    column-count: 1;
+    width: 240px;
+    height: 1230px;
+  }
+  .col-1 {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+  }
+  .col-3 {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+  }
+  .col {
+    width: 100%;
+    height: 410px;
+  }
+  .desc {
+    margin-bottom: 40px;
+  }
+
+  .attribution {
+    right: 0;
+    left: 0;
+    position: absolute;
+    top: 1350px;
+    padding-bottom: 10px;
+  }
+}
